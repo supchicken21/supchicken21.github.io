@@ -115,9 +115,14 @@ nav a:hover {
 
 /* Style for the about us section */
 #about-us {
+  background-image: url('img/drag.jpg');
+  background-color: #333;
+  background-size: auto;
+  background-position: right;
   height: 500px;
   padding: 50px 0;
   text-align: center;
+  color:white;
 }
 
 #about-us h2 {
