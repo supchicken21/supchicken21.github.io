@@ -116,7 +116,7 @@ nav a:hover {
 /* Style for the about us section */
 #about-us {
   background-image: url('img/drag.jpg');
-  background-color: #333;
+  background-color: #00008b;
   background-size: auto;
   background-position: right;
   height: 500px;
@@ -140,6 +140,7 @@ nav a:hover {
 #menu {
   padding: 50px 0;
   text-align: center;
+  background-color: peachpuff;
 }
 
 #menu h2 {
@@ -152,11 +153,13 @@ nav a:hover {
   flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 30px;
+  
 }
 
 #menu li {
   width: calc(33.33% - 20px);
   margin-bottom: 30px;
+  list-style: none
 }
 
 #menu h3 {
@@ -189,58 +192,6 @@ nav a:hover {
   font-size: 1.5rem;
   margin-bottom: 10px;
 }
-
-/* Style for the contact us section */
-#contact-us {
-  padding: 50px 0;
-  text-align: center;
-}
-
-#contact-us h2 {
-  font-size: 3rem;
-  margin-bottom: 20px;
-  }
-  
-  #contact-us form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 20px;
-  }
-  
-  #contact-us label {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
-  }
-  
-  #contact-us input,
-  #contact-us textarea {
-  font-size: 1.25rem;
-  padding: 10px;
-  border-radius: 5px;
-  border: none;
-  margin-bottom: 20px;
-  width: 100%;
-  max-width: 400px;
-  }
-  
-  #contact-us button {
-  background-color: #333;
-  color: #fff;
-  padding: 10px 20px;
-  border-radius: 5px;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-decoration: none;
-  transition: all 0.2s ease-in-out;
-  border: none;
-  cursor: pointer;
-  }
-  
-  #contact-us button:hover {
-  background-color: #e9e9e9;
-  color: #333;
-  }
   
   /* Style for the footer */
   footer {
