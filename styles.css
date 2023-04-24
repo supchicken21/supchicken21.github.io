@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&display=swap');
+
 /* Reset styles for all elements */
 * {
   margin: 0;
@@ -116,13 +119,13 @@ nav a:hover {
 
 /* Style for the about us section */
 #about-us {
-  background-image: url('img/drag.jpg');
-  background-color: #00008b;
+  background: no-repeat center center  ;
+  background-color:#141316;
   background-size: auto;
   background-position: right;
   height: 500px;
   padding: 50px 0;
-  text-align: center;
+  text-align: left;
   font-family: "Dosis";
   color:white;
 }
@@ -130,19 +133,23 @@ nav a:hover {
 #about-us h2 {
   font-size: 3rem;
   margin-bottom: 20px;
+  margin-left: 75px;
 }
 
 #about-us p {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   line-height: 1.8;
   margin-bottom: 20px;
+  margin-left: 75px;
 }
 
 /* Style for the menu section */
 #menu {
   padding: 50px 0;
   text-align: center;
-  background-color: peachpuff;
+  background-color: #191a1c;
+  color: white;
+  font-family: "Barlow Condensed";
 }
 
 #menu h2 {
@@ -175,14 +182,10 @@ nav a:hover {
   margin-bottom: 10px;
 }
 
-#menu h4 {
-  font-size: 1.5rem;
-  margin-top: 10px;
-}
-
 #menu p {
   font-size: 1.25rem;
   text-align: center;
+  margin-top: 25px;
   margin-bottom: 5px;
 }
 
@@ -208,6 +211,17 @@ nav a:hover {
   margin-bottom: 10px;
 }
   
+#location button
+{
+  background-color: red;
+  color: white;
+  border: none ;
+  border-radius: 5%;
+  padding: 10px 30px;
+  font-size: 50px;
+  font-family: "Varela Round";
+  cursor: pointer;
+}
   /* Style for the footer */
   footer {
   background-color: #333;
